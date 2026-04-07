@@ -112,9 +112,9 @@ p, li {
     }
     }
 
-.header{
-	margin-top: 20px;
-	padding: 50px 0;
+.header {
+	padding: 10px 0;
+	margin: 0;
 }
 .heading-icon{
 	margin-top: 79px;
@@ -1429,3 +1429,42 @@ footer{
     	margin-right: 30px;
     }
 }
+
+
+/* Remove forced height from carousel items */
+.carousel .item {
+  height: auto !important;
+}
+
+/* Fix carousel inner height issue */
+.carousel-inner {
+  height: auto !important;
+}
+
+/* Vision slide */
+.vision-slide {
+  background: #eef3f3;
+  padding: 80px 20px;   /* balanced spacing */
+  text-align: center;
+}
+
+/* Content */
+.vision-content {
+  max-width: 700px;
+  margin: 0 auto;       /* center horizontally */
+}
+
+/* Heading */
+.vision-content h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Paragraph */
+.vision-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+

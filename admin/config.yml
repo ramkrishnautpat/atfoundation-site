@@ -1,0 +1,107 @@
+# IMPORTANT: replace the repo value if your GitHub owner/repository differs.
+backend:
+  name: github
+  repo: ramkrishnautpat/atfoundation-site
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+site_url: https://atfoundation.netlify.app
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+publish_mode: simple
+locale: en
+
+collections:
+  - name: "website"
+    label: "Website Content"
+    files:
+      - name: "homepage"
+        label: "Homepage, About & Impact"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "Site name", name: "site_name", widget: "string" }
+          - label: "Hero section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Small heading", name: "heroEyebrow", widget: "string" }
+              - { label: "Main heading (HTML allowed for line break and emphasis)", name: "heroTitle", widget: "text" }
+              - { label: "Description", name: "heroText", widget: "text" }
+              - { label: "Location note (HTML allowed for bold text)", name: "heroNote", widget: "string" }
+          - label: "Impact counters"
+            name: "stats"
+            widget: "list"
+            min: 4
+            max: 4
+            fields:
+              - { label: "Number/value", name: "value", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - { label: "About heading", name: "aboutHeading", widget: "string" }
+          - { label: "About paragraph 1", name: "aboutParagraph1", widget: "text" }
+          - { label: "About paragraph 2", name: "aboutParagraph2", widget: "text" }
+          - { label: "Values section heading", name: "valuesHeading", widget: "string" }
+          - { label: "Values introduction", name: "valuesIntro", widget: "text" }
+          - label: "Vision"
+            name: "vision"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "text", widget: "text" }
+          - label: "Mission"
+            name: "mission"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "text", widget: "text" }
+          - { label: "Programmes section heading", name: "programHeading", widget: "string" }
+          - { label: "Programmes introduction", name: "programIntro", widget: "text" }
+          - label: "Programmes (add, edit, reorder or remove cards)"
+            name: "programmes"
+            widget: "list"
+            fields:
+              - { label: "Card label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image", required: false }
+              - { label: "Photo description (alt text)", name: "image_alt", widget: "string", required: false }
+              - { label: "Link text", name: "link_text", widget: "string", required: false }
+              - { label: "Link destination", name: "link_url", widget: "string", required: false }
+          - { label: "Impact heading", name: "impactHeading", widget: "string" }
+          - { label: "Impact introduction", name: "impactIntro", widget: "text" }
+          - label: "Impact highlights"
+            name: "impact_items"
+            widget: "list"
+            fields:
+              - { label: "Highlight", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+          - { label: "Main impact number", name: "impactNumber", widget: "string" }
+          - { label: "Impact panel title", name: "impactPanelTitle", widget: "string" }
+          - { label: "Impact panel description", name: "impactPanelText", widget: "text" }
+          - { label: "Impact footnote", name: "impactNote", widget: "text" }
+          - { label: "Founder section heading", name: "founderHeading", widget: "string" }
+          - { label: "Founder biography paragraph 1", name: "founderBio1", widget: "text" }
+          - { label: "Founder biography paragraph 2", name: "founderBio2", widget: "text" }
+          - { label: "Founder biography paragraph 3", name: "founderBio3", widget: "text" }
+          - label: "Founder credentials"
+            name: "founder"
+            widget: "object"
+            fields:
+              - { label: "Credentials (one per line)", name: "credentials", widget: "list", field: { label: "Credential", name: "credential", widget: "string" } }
+          - { label: "Call-to-action heading", name: "ctaHeading", widget: "string" }
+          - { label: "Call-to-action text", name: "ctaText", widget: "text" }
+          - { label: "Footer description", name: "footerDescription", widget: "text" }
+          - label: "Website images"
+            name: "images"
+            widget: "object"
+            fields:
+              - { label: "Hero background photo", name: "hero", widget: "image", required: false }
+              - { label: "About section photo", name: "about", widget: "image", required: false }
+              - { label: "Founder photo", name: "founder", widget: "image", required: false }
+          - label: "Contact details"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Public contact email", name: "email", widget: "string", required: false }

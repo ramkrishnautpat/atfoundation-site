@@ -1,0 +1,145 @@
+{
+  "site_name": "AT Foundation",
+  "stats": [
+    {
+      "value": "1,018",
+      "label": "Children trained"
+    },
+    {
+      "value": "2022",
+      "label": "Foundation established"
+    },
+    {
+      "value": "3+",
+      "label": "Core development areas"
+    },
+    {
+      "value": "1 goal",
+      "label": "Opportunity for every child"
+    }
+  ],
+  "aboutHeading": "Building stronger futures, one game at a time.",
+  "aboutParagraph1": "AT Foundation (ATF) is a non-profit initiative founded by Anju Turambekar on 22 February 2022. Based in the Gadhinglaj region of Kolhapur district, Maharashtra, ATF works to connect rural communities with opportunities through sport, education and social empowerment.",
+  "aboutParagraph2": "We believe football can be a practical classroom for teamwork, decision-making, discipline and respect. Through community-based programmes, we aim to reduce barriers to participation and create pathways for children and young people—particularly girls—to learn, grow and lead.",
+  "valuesHeading": "A clear purpose. A community-led approach.",
+  "valuesIntro": "We want every child to have the space, support and encouragement to discover what they can become.",
+  "vision": {
+    "title": "An inclusive society through sport",
+    "text": "To create an inclusive society where every child and young person, irrespective of gender, background or economic circumstances, has the opportunity to learn, grow and lead through sports."
+  },
+  "mission": {
+    "title": "Turn participation into possibility",
+    "text": "To use football and other sports for holistic development—expanding access, promoting gender equality, building leadership and supporting talent while connecting sport with education, wellbeing and social responsibility."
+  },
+  "programHeading": "Programmes that go beyond the pitch.",
+  "programIntro": "Our work brings football together with life skills, community leadership and opportunities for women and girls.",
+  "programmes": [
+    {
+      "label": "PROGRAMME 01",
+      "title": "Village Football Development",
+      "description": "Bringing structured football coaching to rural villages through regular sessions, equipment, talent identification and pathways to advanced training. Sessions also reinforce discipline, nutrition and balancing education with sport.",
+      "image": "https://images.openai.com/static-rsc-4/dMv9su6kl3Qr44iLsw_sN4Xa2c4l5XjoYqkk4YL9yXIyTf8md38tdJTdHsmXLwNMOVtmbvf1m9YglfLeaT4cH5IDjQiiReW6sU6r-CJwRdHbcb7q3O_xGA4Sh74O6Sj5d1miz74RDwyzcnO13Dzsu5N0TyYjrRIp5klF3UYXDiHT3hY3O6w9VGYtwK-8CWsT?purpose=fullsize",
+      "image_alt": "Children participating in grassroots football",
+      "link_text": "Support grassroots football",
+      "link_url": "#contact"
+    },
+    {
+      "label": "PROGRAMME 02",
+      "title": "Village Leadership Development",
+      "description": "Using football and community activities to develop communication, teamwork, problem-solving, decision-making and personal responsibility in young people—on and off the field.",
+      "image": "https://images.openai.com/static-rsc-4/m6I4QgphVsO1HDCQOxgd0GpUM1vfQccLKmoiebLkYgHwzF9TFDWGV96KtRECd2245b20Fa9Fasgt7iojmHMSd-7PVSbscNvKkKMmHZAU3UJsanrLJPxcJWZvbJ3K5kgjhP0Kx_Y_YXkFcrhFUkRLzJdxInNUM1PYY1_YpBtXv_1OyjdBG9yRhxix44YsnRDK?purpose=fullsize",
+      "image_alt": "Girls learning and growing through football",
+      "link_text": "Develop future leaders",
+      "link_url": "#contact"
+    },
+    {
+      "label": "PROGRAMME 03",
+      "title": "Sports & Women Empowerment",
+      "description": "Encouraging girls and women to participate in sport, build confidence and take leadership roles through girls' football, talent identification and school-community pathways.",
+      "image": "https://images.openai.com/static-rsc-4/RcUEUKwgmmNNLQLXy7YE24VJJ-u55282vvrbCIZUEyqiXR-ro6K_XUZWzgqEMfb4T-ay_P4H2fppHIbuEuC3cmt9TklDsWyFHCSV_N-rP09uYI8IY4GoAv9FD-jWh0nl_p17H6LCNy-NcgMXydLsu3Y9hGSln43qgm79NYnAxSv2r3rS5i-39J_6vFgMIzaE?purpose=fullsize",
+      "image_alt": "Girls and women participating in football",
+      "link_text": "Champion equal opportunity",
+      "link_url": "#contact"
+    },
+    {
+      "label": "PROGRAMME 04",
+      "title": "Mother Coaches & Leaders",
+      "description": "Working with Coaches Across Continents and community partners to equip mothers and women with coaching knowledge, confidence and leadership skills.",
+      "image": "https://images.openai.com/static-rsc-4/B25tShLhyroAoXQnLwItzC7CzfRbGGE8Q7e-4LFpwuQD75Zx1ZvLwCpGs259m9wQ-05BEWmeQisqN_cNxIzd4tsDdzZ4RY-fST6LVbKYRMT37Ba5bhmJl-ocSpNlT-ttuHf_z_VMIYzF6myR0etg7zf7YpSDsEswyHFH-R5Id0aAybLhvVjCIz132zORE6lo?purpose=fullsize",
+      "image_alt": "Community football activity",
+      "link_text": "Help grow women leaders",
+      "link_url": "#contact"
+    },
+    {
+      "label": "PROGRAMME 05",
+      "title": "School & Community Development",
+      "description": "Connecting sport with learning and village life through activities around gender equality, environmental awareness, problem-solving and decision-making.",
+      "image": "https://images.openai.com/static-rsc-4/3gsIEjTz7uToyL3kOuxXXyAkZdAaD67dxtHB5yj6OYuLLK4-9Oc14wTfg-t2_XXnjO-dR9xsK0DFEcPNZ_IGnZVogM8TJGXhNCbQ0zGHpQH_cra5KtsK__uBNgM7DKuQj6i77OE0gIyaU1JBXq8MIzPs9xeT8kfakIBgftonBdYVHDuPBsbbD1EnA1qXnZP2?purpose=fullsize",
+      "image_alt": "Community sports programme",
+      "link_text": "Build a community partnership",
+      "link_url": "#contact"
+    },
+    {
+      "label": "CROSS-CUTTING FOCUS",
+      "title": "Life Skills & Wellbeing",
+      "description": "Embedding healthy habits, nutrition, respect, accountability and positive decision-making into sporting activities to support whole-person development.",
+      "image": "https://images.openai.com/static-rsc-4/t4HPtMTGf0L84bfAxiuiqcXDQO_Yljl0GwKYQ5IZXDm5u69_e3nNUcKnUuGOlXo0gz6HkBS6LpkN2CjJVp9PjUVDpfyJgNeG9FDPH70wxcSc9TG3nEiUWGvDZpcaMa3F6vSUxuC815S-1mXwbn4mHY3q-oZsNatlzLi2Vh0Fv6bv79oFoGjLWTbmU5BoHdme?purpose=fullsize",
+      "image_alt": "Women pursuing opportunities in football",
+      "link_text": "Explore collaboration",
+      "link_url": "#contact"
+    }
+  ],
+  "impactHeading": "Creating pathways, not just moments.",
+  "impactIntro": "ATF is focused on building sustained sporting opportunities and supporting young people to grow into confident, responsible members of their communities.",
+  "impact_items": [
+    {
+      "title": "1,018 boys and girls trained",
+      "description": "Through the Village Leadership Development Programme."
+    },
+    {
+      "title": "Village-based football opportunities",
+      "description": "Coaching and equipment help bring the game closer to rural children."
+    },
+    {
+      "title": "Girls and women in focus",
+      "description": "Promoting participation, confidence and leadership through sport."
+    },
+    {
+      "title": "Learning beyond football",
+      "description": "Discipline, teamwork, nutrition, education and social responsibility are part of the journey."
+    }
+  ],
+  "impactNumber": "1,018",
+  "impactPanelTitle": "Young people. New possibilities.",
+  "impactPanelText": "Every training session can be a chance to build skills, confidence and a stronger sense of what is possible.",
+  "impactNote": "Impact figure provided by AT Foundation. Programme reach and current activity levels may vary by cycle.",
+  "founderHeading": "From rural roots to building opportunities for others.",
+  "founderBio1": "Anju Turambekar hails from Bekanal village in Gadhinglaj taluka, Kolhapur district, Maharashtra. Her journey in football reflects perseverance, continuous learning and a commitment to widening access for the next generation.",
+  "founderBio2": "She founded AT Foundation on 22 February 2022, inspired by her own experiences and the barriers faced by aspiring athletes in rural communities. Through ATF, her ambition is to build an environment where children—especially girls—can become better players, confident individuals and future leaders.",
+  "founderBio3": "Her vision is bigger than football results: it is about helping children gain the skills and opportunities to shape their own futures.",
+  "founder": {
+    "credentials": [
+      "AFC A Licensed Coach",
+      "Former Head of Grassroots Development, AIFF",
+      "AFC Grassroots Panel Member & Technical Expert",
+      "Former Technical Director, Dempo Sports Club"
+    ]
+  },
+  "ctaHeading": "Help us make opportunity reach further.",
+  "ctaText": "Partner with AT Foundation to support rural sport, girls' participation and community leadership.",
+  "footerDescription": "A non-profit initiative using football, education and leadership to create opportunities for rural communities, with a focus on children, girls and women.",
+  "images": {
+    "hero": "",
+    "about": "",
+    "founder": ""
+  },
+  "contact": {
+    "email": ""
+  },
+  "hero": {
+    "heroEyebrow": "A future with more possibility",
+    "heroTitle": "Talent is everywhere.<br><em>Opportunity should be too.</em>",
+    "heroText": "AT Foundation uses football, education and leadership to help rural children—especially girls—build confidence, discover their potential and shape their own futures.",
+    "heroNote": "Rooted in <strong>Gadhinglaj, Kolhapur</strong> · Creating change through sport"
+  }
+}

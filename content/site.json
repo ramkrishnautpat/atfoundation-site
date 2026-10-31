@@ -1,38 +1,54 @@
 {
+  "contact": {
+    "email": ""
+  },
+  "valuesHeading": "A clear purpose. A community-led approach.",
+  "footerDescription": "A non-profit initiative using football, education and leadership to create opportunities for rural communities, with a focus on children, girls and women.",
   "site_name": "AT Foundation",
-  "stats": [
+  "impactIntro": "ATF is focused on building sustained sporting opportunities and supporting young people to grow into confident, responsible members of their communities.",
+  "impact_items": [
     {
-      "value": "1,018",
-      "label": "Children trained"
+      "title": "1,018 boys and girls trained",
+      "description": "Through the Village Leadership Development Programme."
     },
     {
-      "value": "2022",
-      "label": "Foundation established"
+      "title": "Village-based football opportunities",
+      "description": "Coaching and equipment help bring the game closer to rural children."
     },
     {
-      "value": "3+",
-      "label": "Core development areas"
+      "title": "Girls and women in focus",
+      "description": "Promoting participation, confidence and leadership through sport."
     },
     {
-      "value": "1 goal",
-      "label": "Opportunity for every child"
+      "title": "Learning beyond football",
+      "description": "Discipline, teamwork, nutrition, education and social responsibility are part of the journey."
     }
   ],
-  "aboutHeading": "Building stronger futures, one game at a time.",
-  "aboutParagraph1": "AT Foundation (ATF) is a non-profit initiative founded by Anju Turambekar on 22 February 2022. Based in the Gadhinglaj region of Kolhapur district, Maharashtra, ATF works to connect rural communities with opportunities through sport, education and social empowerment.",
-  "aboutParagraph2": "We believe football can be a practical classroom for teamwork, decision-making, discipline and respect. Through community-based programmes, we aim to reduce barriers to participation and create pathways for children and young people—particularly girls—to learn, grow and lead.",
-  "valuesHeading": "A clear purpose. A community-led approach.",
-  "valuesIntro": "We want every child to have the space, support and encouragement to discover what they can become.",
+  "programIntro": "Our work brings football together with life skills, community leadership and opportunities for women and girls.",
   "vision": {
     "title": "An inclusive society through sport",
     "text": "To create an inclusive society where every child and young person, irrespective of gender, background or economic circumstances, has the opportunity to learn, grow and lead through sports."
   },
+  "valuesIntro": "We want every child to have the space, support and encouragement to discover what they can become.",
+  "impactPanelText": "Every training session can be a chance to build skills, confidence and a stronger sense of what is possible.",
   "mission": {
     "title": "Turn participation into possibility",
     "text": "To use football and other sports for holistic development—expanding access, promoting gender equality, building leadership and supporting talent while connecting sport with education, wellbeing and social responsibility."
   },
-  "programHeading": "Programmes that go beyond the pitch.",
-  "programIntro": "Our work brings football together with life skills, community leadership and opportunities for women and girls.",
+  "impactNumber": "1,018",
+  "founder": {
+    "credentials": [
+      "AFC A Licensed Coach",
+      "Former Head of Grassroots Development, AIFF",
+      "AFC Grassroots Panel Member & Technical Expert",
+      "Former Technical Director, Dempo Sports Club"
+    ]
+  },
+  "aboutParagraph1": "AT Foundation (ATF) is a non-profit initiative founded by Anju Turambekar on 22 February 2022. Based in the Gadhinglaj region of Kolhapur district, Maharashtra, ATF works to connect rural communities with opportunities through sport, education and social empowerment.",
+  "aboutParagraph2": "We believe football can be a practical classroom for teamwork, decision-making, discipline and respect. Through community-based programmes, we aim to reduce barriers to participation and create pathways for children and young people—particularly girls—to learn, grow and lead.",
+  "ctaHeading": "Help us make opportunity reach further.",
+  "founderHeading": "From rural roots to building opportunities for others.",
+  "aboutHeading": "Building stronger futures, one game at a time.",
   "programmes": [
     {
       "label": "PROGRAMME 01",
@@ -89,57 +105,41 @@
       "link_url": "#contact"
     }
   ],
-  "impactHeading": "Creating pathways, not just moments.",
-  "impactIntro": "ATF is focused on building sustained sporting opportunities and supporting young people to grow into confident, responsible members of their communities.",
-  "impact_items": [
-    {
-      "title": "1,018 boys and girls trained",
-      "description": "Through the Village Leadership Development Programme."
-    },
-    {
-      "title": "Village-based football opportunities",
-      "description": "Coaching and equipment help bring the game closer to rural children."
-    },
-    {
-      "title": "Girls and women in focus",
-      "description": "Promoting participation, confidence and leadership through sport."
-    },
-    {
-      "title": "Learning beyond football",
-      "description": "Discipline, teamwork, nutrition, education and social responsibility are part of the journey."
-    }
-  ],
-  "impactNumber": "1,018",
-  "impactPanelTitle": "Young people. New possibilities.",
-  "impactPanelText": "Every training session can be a chance to build skills, confidence and a stronger sense of what is possible.",
-  "impactNote": "Impact figure provided by AT Foundation. Programme reach and current activity levels may vary by cycle.",
-  "founderHeading": "From rural roots to building opportunities for others.",
   "founderBio1": "Anju Turambekar hails from Bekanal village in Gadhinglaj taluka, Kolhapur district, Maharashtra. Her journey in football reflects perseverance, continuous learning and a commitment to widening access for the next generation.",
-  "founderBio2": "She founded AT Foundation on 22 February 2022, inspired by her own experiences and the barriers faced by aspiring athletes in rural communities. Through ATF, her ambition is to build an environment where children—especially girls—can become better players, confident individuals and future leaders.",
-  "founderBio3": "Her vision is bigger than football results: it is about helping children gain the skills and opportunities to shape their own futures.",
-  "founder": {
-    "credentials": [
-      "AFC A Licensed Coach",
-      "Former Head of Grassroots Development, AIFF",
-      "AFC Grassroots Panel Member & Technical Expert",
-      "Former Technical Director, Dempo Sports Club"
-    ]
-  },
-  "ctaHeading": "Help us make opportunity reach further.",
-  "ctaText": "Partner with AT Foundation to support rural sport, girls' participation and community leadership.",
-  "footerDescription": "A non-profit initiative using football, education and leadership to create opportunities for rural communities, with a focus on children, girls and women.",
+  "impactNote": "Impact figure provided by AT Foundation. Programme reach and current activity levels may vary by cycle.",
   "images": {
     "hero": "",
     "about": "",
     "founder": ""
   },
-  "contact": {
-    "email": ""
-  },
+  "founderBio2": "She founded AT Foundation on 22 February 2022, inspired by her own experiences and the barriers faced by aspiring athletes in rural communities. Through ATF, her ambition is to build an environment where children—especially girls—can become better players, confident individuals and future leaders.",
+  "founderBio3": "Her vision is bigger than football results: it is about helping children gain the skills and opportunities to shape their own futures.",
+  "impactPanelTitle": "Young people. New possibilities.",
   "hero": {
     "heroEyebrow": "A future with more possibility",
-    "heroTitle": "Talent is everywhere.<br><em>Opportunity should be too.</em>",
+    "heroTitle": "Talent is everywhere.<br><em>Opportunity should be too.</em>Yes....",
     "heroText": "AT Foundation uses football, education and leadership to help rural children—especially girls—build confidence, discover their potential and shape their own futures.",
     "heroNote": "Rooted in <strong>Gadhinglaj, Kolhapur</strong> · Creating change through sport"
-  }
+  },
+  "impactHeading": "Creating pathways, not just moments.",
+  "ctaText": "Partner with AT Foundation to support rural sport, girls' participation and community leadership.",
+  "programHeading": "Programmes that go beyond the pitch.",
+  "stats": [
+    {
+      "value": "1,018",
+      "label": "Children trained"
+    },
+    {
+      "value": "2022",
+      "label": "Foundation established"
+    },
+    {
+      "value": "3+",
+      "label": "Core development areas"
+    },
+    {
+      "value": "1 goal",
+      "label": "Opportunity for every child"
+    }
+  ]
 }

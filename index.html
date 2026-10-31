@@ -1,216 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>AT Foundation</title>
-		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/demo.css" />
-    <link rel="stylesheet" href="css/testimonial.css" />
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
-  	<div class="header container">
-      <div class="visible-xs visible-sm col-xs-12 col-sm-12 text-center sm-logo">
-        <a rel="home" href="index.html">
-          <img src="img/logo.png" width="200" alt="logo">
-        </a>
-      </div>
-  	</div>
-		<div class="navbar" role="navigation">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-				<li class= "hidden-xs hidden-sm">
-				<a rel="home" href="index.html"><img class="logo" src="img/logo.png" width="200" alt="logo"></a>
-				</li>
-					<li class="selected"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="service.html">Initiatives</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="event.html">Events</a></li>
-					<li><a href="team.html">Team</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
-		  </ol>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123f50">
+<meta name="description" content="AT Foundation uses football, education and leadership to create opportunities for rural children, girls and women.">
+<title>AT Foundation | Every Child. Every Opportunity.</title>
+<style>
+:root{--navy:#123f50;--teal:#19b9b7;--teal-dark:#0c8e91;--ink:#14252c;--muted:#5d6c72;--cream:#f6f8f5;--white:#fff;--line:#e1e9e7;--gold:#f2bd63}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);line-height:1.6}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.container{width:min(1160px,calc(100% - 40px));margin:auto}
+.topline{background:var(--navy);color:#e7f6f5;font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:8px 0}.topline .container{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+header{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);z-index:20;border-bottom:1px solid rgba(18,63,80,.08)}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;min-width:210px}.brand img{width:58px;height:58px;object-fit:contain;border-radius:10px}.brand-name{font-weight:850;color:var(--navy);font-size:19px;line-height:1.1}.brand-name small{display:block;font-size:10px;letter-spacing:.19em;color:var(--teal-dark);margin-top:5px}.navlinks{display:flex;align-items:center;gap:25px;font-size:14px;font-weight:650;color:#34484e}.navlinks a:hover{color:var(--teal-dark)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--teal);color:#083943;padding:13px 19px;border-radius:7px;font-weight:800;border:0;cursor:pointer;transition:.2s}.nav-cta:hover,.btn:hover{transform:translateY(-2px);background:#37d0c9}.menu-btn{display:none;background:none;border:0;font-size:25px;color:var(--navy)}
+.hero{position:relative;overflow:hidden;background:var(--navy);color:white;min-height:600px;display:flex;align-items:center}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,42,54,.98) 0%,rgba(9,42,54,.88) 43%,rgba(9,42,54,.28) 100%),var(--cms-hero-image, url('https://images.openai.com/static-rsc-4/3gsIEjTz7uToyL3kOuxXXyAkZdAaD67dxtHB5yj6OYuLLK4-9Oc14wTfg-t2_XXnjO-dR9xsK0DFEcPNZ_IGnZVogM8TJGXhNCbQ0zGHpQH_cra5KtsK__uBNgM7DKuQj6i77OE0gIyaU1JBXq8MIzPs9xeT8kfakIBgftonBdYVHDuPBsbbD1EnA1qXnZP2?purpose=fullsize')) center/cover no-repeat;opacity:.96}.hero:after{content:"";position:absolute;right:-100px;bottom:-250px;width:560px;height:560px;border:1px solid rgba(25,185,183,.28);border-radius:50%;box-shadow:0 0 0 50px rgba(25,185,183,.04),0 0 0 100px rgba(25,185,183,.04)}.hero-content{position:relative;z-index:1;max-width:720px;padding:90px 0 100px}.eyebrow{display:inline-flex;align-items:center;gap:9px;text-transform:uppercase;letter-spacing:.15em;font-size:11px;font-weight:850;color:var(--teal);margin-bottom:20px}.eyebrow:before{content:"";width:28px;height:2px;background:currentColor}.hero h1{font-size:clamp(42px,6.2vw,76px);line-height:1.02;letter-spacing:-.045em;margin:0 0 22px;max-width:750px}.hero h1 em{font-style:normal;color:var(--teal)}.hero p{font-size:18px;color:#d7e8e9;max-width:600px;margin:0 0 30px}.hero-actions{display:flex;gap:13px;flex-wrap:wrap}.btn-outline{border:1px solid rgba(255,255,255,.6);color:white;background:transparent}.btn-outline:hover{background:white;color:var(--navy)}.hero-note{margin-top:48px;display:flex;align-items:center;gap:12px;color:#d7e8e9;font-size:13px}.hero-note strong{color:white}.dot{width:8px;height:8px;background:var(--teal);border-radius:50%;box-shadow:0 0 0 5px #19b9b72a}
+.stats{background:var(--teal);color:var(--navy);padding:27px 0}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.stat{padding:8px 20px;border-right:1px solid rgba(18,63,80,.22)}.stat:last-child{border:0}.stat strong{display:block;font-size:34px;line-height:1.2;letter-spacing:-.04em}.stat span{font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:800}
+section{padding:94px 0}.section-head{max-width:720px;margin-bottom:42px}.section-head.center{text-align:center;margin-left:auto;margin-right:auto}.kicker{font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.16em;color:var(--teal-dark)}h2{font-size:clamp(31px,4vw,48px);letter-spacing:-.04em;line-height:1.12;color:var(--navy);margin:10px 0 16px}.section-head p,.intro-copy p{color:var(--muted);font-size:16px;margin:0}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}.intro-image{min-height:460px;position:relative;border-radius:16px;overflow:hidden;background:#d8e9e5}.intro-image img{width:100%;height:460px;object-fit:cover}.image-tag{position:absolute;bottom:20px;left:20px;right:20px;background:rgba(255,255,255,.95);border-radius:10px;padding:17px 20px;display:flex;align-items:center;gap:14px}.image-tag .tag-icon{background:var(--teal);width:45px;height:45px;border-radius:9px;display:grid;place-items:center;font-size:22px}.image-tag strong{display:block;color:var(--navy)}.image-tag span{font-size:12px;color:var(--muted)}.intro-copy p+p{margin-top:14px}.pill-row{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}.pill{border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-size:12px;font-weight:750;color:var(--navy);background:#fff}.text-link{display:inline-flex;gap:8px;align-items:center;font-weight:850;color:var(--teal-dark);margin-top:9px}
+.values{background:var(--cream)}.values-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.value-card{background:white;border:1px solid var(--line);padding:30px;border-radius:13px}.value-card h3{color:var(--navy);margin:0 0 10px;font-size:22px}.value-card p{margin:0;color:var(--muted)}.value-mark{font-size:12px;font-weight:850;color:var(--teal-dark);letter-spacing:.1em;text-transform:uppercase}
+.program-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.program-card{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:white;transition:.25s}.program-card:hover{transform:translateY(-5px);box-shadow:0 16px 35px #123f5012}.program-card img{height:210px;width:100%;object-fit:cover;background:#e5efec}.program-body{padding:23px}.program-number{font-size:12px;font-weight:900;letter-spacing:.12em;color:var(--teal-dark)}.program-body h3{font-size:20px;line-height:1.25;color:var(--navy);margin:9px 0 12px}.program-body p{font-size:14px;color:var(--muted);margin:0 0 18px}.learn{font-size:13px;font-weight:850;color:var(--teal-dark)}
+.impact{background:var(--navy);color:white;position:relative;overflow:hidden}.impact h2{color:white}.impact .section-head p{color:#c4d7da}.impact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.impact-list{display:grid;gap:18px}.impact-item{display:flex;gap:15px;padding-bottom:18px;border-bottom:1px solid #ffffff20}.impact-item:last-child{border:0}.check{width:28px;height:28px;flex:0 0 28px;border-radius:50%;display:grid;place-items:center;background:#19b9b72b;color:var(--teal);font-weight:900}.impact-item strong{display:block;margin-bottom:4px}.impact-item p{margin:0;color:#c4d7da;font-size:14px}.impact-panel{background:#1a5061;border:1px solid #ffffff1c;border-radius:15px;padding:30px}.impact-panel .big{font-size:70px;line-height:1;font-weight:900;color:var(--teal);letter-spacing:-.06em}.impact-panel h3{font-size:22px;margin:12px 0 8px}.impact-panel p{color:#d2e4e5;margin:0}.impact-panel .small-note{font-size:11px;color:#a9c6ca;margin-top:18px}
+.founder-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:58px;align-items:center}.founder-photo{border-radius:16px;overflow:hidden;background:#e0ebe8;position:relative}.founder-photo img{width:100%;height:490px;object-fit:cover;object-position:center}.founder-caption{background:var(--navy);color:white;padding:18px 22px}.founder-caption strong{font-size:20px;display:block}.founder-caption span{font-size:12px;color:var(--teal)}.founder-copy p{color:var(--muted)}.credentials{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0}.credential{padding:14px 15px;background:var(--cream);border-radius:8px;font-size:13px;font-weight:750;color:var(--navy)}.credential:before{content:"↗";color:var(--teal-dark);font-weight:900;margin-right:8px}
+.cta-band{background:#e7f7f4;padding:64px 0}.cta-inner{display:flex;justify-content:space-between;align-items:center;gap:30px}.cta-inner h2{max-width:660px;margin-bottom:10px}.cta-inner p{color:var(--muted);margin:0}.cta-buttons{display:flex;gap:10px;flex-wrap:wrap;flex-shrink:0}
+footer{background:#0b2c38;color:white;padding:52px 0 20px}.footer-grid{display:grid;grid-template-columns:1.3fr .7fr .8fr;gap:50px;padding-bottom:35px}.footer-brand{display:flex;align-items:center;gap:12px;margin-bottom:15px}.footer-brand img{width:65px;height:65px;object-fit:contain;background:white;border-radius:8px}.footer-brand strong{font-size:20px}.footer-grid p{font-size:13px;color:#bfd0d3;max-width:360px}.footer-grid h4{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--teal);margin:0 0 14px}.footer-links{display:grid;gap:9px;font-size:13px;color:#d7e4e5}.footer-links a:hover{color:var(--teal)}.footer-bottom{border-top:1px solid #ffffff20;padding-top:18px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:#a9c1c5;font-size:11px}
+.modal-backdrop{display:none;position:fixed;inset:0;background:#061d25b8;z-index:50;align-items:center;justify-content:center;padding:20px}.modal-backdrop.open{display:flex}.modal{background:white;border-radius:15px;padding:28px;width:min(480px,100%);position:relative}.modal h3{color:var(--navy);margin:0 0 8px;font-size:25px}.modal p{color:var(--muted);font-size:14px}.close{position:absolute;right:14px;top:12px;background:none;border:0;font-size:24px;cursor:pointer}.form-row{display:grid;gap:6px;margin:13px 0}.form-row label{font-size:12px;font-weight:800;color:var(--navy)}.form-row input,.form-row select,.form-row textarea{width:100%;padding:12px;border:1px solid #d5e1df;border-radius:7px;font:inherit}.form-row textarea{min-height:85px}.notice{font-size:12px!important;background:#e7f7f4;padding:12px;border-radius:7px}
+@media(max-width:850px){.navlinks{display:none;position:absolute;top:82px;left:0;right:0;background:white;padding:22px 25px 28px;box-shadow:0 15px 20px #123f5012;flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menu-btn{display:block}.nav-cta{display:none}.hero{min-height:560px}.hero:before{background:linear-gradient(90deg,rgba(9,42,54,.96),rgba(9,42,54,.62)),var(--cms-hero-image, url('https://images.openai.com/static-rsc-4/3gsIEjTz7uToyL3kOuxXXyAkZdAaD67dxtHB5yj6OYuLLK4-9Oc14wTfg-t2_XXnjO-dR9xsK0DFEcPNZ_IGnZVogM8TJGXhNCbQ0zGHpQH_cra5KtsK__uBNgM7DKuQj6i77OE0gIyaU1JBXq8MIzPs9xeT8kfakIBgftonBdYVHDuPBsbbD1EnA1qXnZP2?purpose=fullsize')) center/cover}.stats-grid{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid #123f5030;padding-bottom:18px}.intro-grid,.impact-grid,.founder-grid{grid-template-columns:1fr;gap:35px}.intro-image{min-height:330px}.intro-image img{height:360px}.program-grid{grid-template-columns:1fr 1fr}.founder-photo img{height:420px}.cta-inner{align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}}
+@media(max-width:560px){.container{width:min(100% - 30px,1160px)}.topline .container{font-size:10px}.nav{height:72px}.brand img{width:49px;height:49px}.brand-name{font-size:17px}.navlinks{top:72px}.hero-content{padding:70px 0 75px}.hero h1{font-size:44px}.hero p{font-size:16px}.stats-grid{gap:0}.stat{padding:10px 8px}.stat strong{font-size:29px}.stat span{font-size:10px}.stat:nth-child(odd){padding-left:0}.stat:nth-child(even){padding-left:16px}.stat:nth-child(2){border-right:0}section{padding:66px 0}.values-grid,.program-grid{grid-template-columns:1fr}.program-card img{height:220px}.credentials{grid-template-columns:1fr}.impact-panel .big{font-size:58px}.footer-grid{grid-template-columns:1fr;gap:28px}.footer-grid>div:first-child{grid-column:auto}.footer-bottom{flex-direction:column}.cta-buttons{width:100%}.cta-buttons .btn{width:100%}}
+</style>
+</head>
+<body>
+<div class="topline"><div class="container"><span>Football · Education · Leadership</span><span>Founded 22 February 2022 · Gadhinglaj, Maharashtra</span></div></div>
+<header><div class="container nav">
+<a class="brand" href="#home" aria-label="AT Foundation home"><img src="assets/at-foundation-logo.jpg" alt="AT Foundation logo"><span class="brand-name">AT FOUNDATION<small>OPPORTUNITY THROUGH SPORT</small></span></a>
+<nav class="navlinks" id="navlinks"><a href="#about">About ATF</a><a href="#programmes">Programmes</a><a href="#impact">Our Impact</a><a href="#founder">Founder</a><a href="#contact">Get Involved</a></nav>
+<a class="nav-cta" href="#contact">Partner with us ↗</a><button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="container"><div class="hero-content">
+<div class="eyebrow" id="heroEyebrow">A future with more possibility</div>
+<h1 id="heroTitle">Talent is everywhere.<br><em>Opportunity should be too.</em></h1>
+<p id="heroText">AT Foundation uses football, education and leadership to help rural children—especially girls—build confidence, discover their potential and shape their own futures.</p>
+<div class="hero-actions"><a class="btn" href="#programmes">Explore our programmes <span>↗</span></a><a class="btn btn-outline" href="#about">Discover our mission</a></div>
+<div class="hero-note"><span class="dot"></span><span id="heroNote">Rooted in <strong>Gadhinglaj, Kolhapur</strong> · Creating change through sport</span></div>
+</div></div></section>
+<div class="stats"><div class="container stats-grid"><div class="stat"><strong id="stat1Value">1,018</strong><span id="stat1Label">Children trained</span></div><div class="stat"><strong id="stat2Value">2022</strong><span id="stat2Label">Foundation established</span></div><div class="stat"><strong id="stat3Value">3+</strong><span id="stat3Label">Core development areas</span></div><div class="stat"><strong id="stat4Value">1 goal</strong><span id="stat4Label">Opportunity for every child</span></div></div></div>
+<section id="about"><div class="container intro-grid">
+<div class="intro-image"><img src="https://images.openai.com/static-rsc-4/qNKznrnFzQNhx2OT4D40UcshBtdveneA_LfC_Jm8k9diG9kWnQclZfk0PMlHgvgkkzUFqLWhqmL53Wu0ttvnAE0_LN8Wi6pJebd9z9bl6ocTmvnoG4TthNBGhKfyN9Pgjb7fAk0-pWS-ynSdRc0FZCP_AM5G-xAFZDYFh4DJE3TRA-0pvQL4PTolPygUf4P0?purpose=fullsize" alt="Grassroots football and coach development in Gadhinglaj" loading="lazy"><div class="image-tag"><div class="tag-icon">⚽</div><div><strong>More than a game</strong><span>Sport as a pathway to confidence, skills and leadership</span></div></div></div>
+<div class="intro-copy"><div class="kicker">Who we are</div><h2 id="aboutHeading">Building stronger futures, one game at a time.</h2>
+<p id="aboutParagraph1">AT Foundation (ATF) is a non-profit initiative founded by Anju Turambekar on 22 February 2022. Based in the Gadhinglaj region of Kolhapur district, Maharashtra, ATF works to connect rural communities with opportunities through sport, education and social empowerment.</p>
+<p id="aboutParagraph2">We believe football can be a practical classroom for teamwork, decision-making, discipline and respect. Through community-based programmes, we aim to reduce barriers to participation and create pathways for children and young people—particularly girls—to learn, grow and lead.</p>
+<div class="pill-row"><span class="pill">Grassroots football</span><span class="pill">Girls' participation</span><span class="pill">Life skills</span><span class="pill">Community leadership</span></div>
+<a class="text-link" href="#founder">Meet our founder <span>→</span></a></div>
+</div></section>
+<section class="values"><div class="container"><div class="section-head"><div class="kicker">Our direction</div><h2 id="valuesHeading">A clear purpose. A community-led approach.</h2><p id="valuesIntro">We want every child to have the space, support and encouragement to discover what they can become.</p></div>
+<div class="values-grid"><article class="value-card"><div class="value-mark">01 / Vision</div><h3 id="visionTitle">An inclusive society through sport</h3><p id="visionText">To create an inclusive society where every child and young person, irrespective of gender, background or economic circumstances, has the opportunity to learn, grow and lead through sports.</p></article>
+<article class="value-card"><div class="value-mark">02 / Mission</div><h3 id="missionTitle">Turn participation into possibility</h3><p id="missionText">To use football and other sports for holistic development—expanding access, promoting gender equality, building leadership and supporting talent while connecting sport with education, wellbeing and social responsibility.</p></article></div>
+</div></section>
+<section id="programmes"><div class="container"><div class="section-head"><div class="kicker">What we do</div><h2 id="programHeading">Programmes that go beyond the pitch.</h2><p id="programIntro">Our work brings football together with life skills, community leadership and opportunities for women and girls.</p></div>
+<div class="program-grid" id="programGrid" aria-live="polite"></div></div></section>
+<section class="impact" id="impact"><div class="container impact-grid"><div><div class="section-head"><div class="kicker">Our impact</div><h2 id="impactHeading">Creating pathways, not just moments.</h2><p id="impactIntro">ATF is focused on building sustained sporting opportunities and supporting young people to grow into confident, responsible members of their communities.</p></div>
+<div class="impact-list" id="impactList"></div></div>
+<div class="impact-panel"><div class="big" id="impactNumber">1,018</div><h3 id="impactPanelTitle">Young people. New possibilities.</h3><p id="impactPanelText">Every training session can be a chance to build skills, confidence and a stronger sense of what is possible.</p><div class="small-note" id="impactNote">Impact figure provided by AT Foundation. Programme reach and current activity levels may vary by cycle.</div></div>
+</div></section>
+<section id="founder"><div class="container founder-grid"><div class="founder-photo"><img src="https://images.openai.com/static-rsc-4/ERPNrTmsNaBkwslgd78JGPas0QLzvI2taM0RLgsg7VZXJzw0ok2ynJS8V2pUh3TaWzFZrg3TqX8IEe_8RCtbO7yZcReBhLJJMz8rGCK8mobU_DnEdW_rBCE5fRP3ZEabmZj_AgJIVy_ZgfsKRxauVzwEGWMg7YHnOXcBLFpM0XvTg-oFuXzyH946bLm3MgXs?purpose=fullsize" alt="Anju Turambekar, founder of AT Foundation" loading="lazy"><div class="founder-caption"><strong>Anju Turambekar</strong><span>FOUNDER · AT FOUNDATION</span></div></div>
+<div class="founder-copy"><div class="kicker">The person behind the purpose</div><h2 id="founderHeading">From rural roots to building opportunities for others.</h2><p id="founderBio1">Anju Turambekar hails from Bekanal village in Gadhinglaj taluka, Kolhapur district, Maharashtra. Her journey in football reflects perseverance, continuous learning and a commitment to widening access for the next generation.</p><p id="founderBio2">She founded AT Foundation on 22 February 2022, inspired by her own experiences and the barriers faced by aspiring athletes in rural communities. Through ATF, her ambition is to build an environment where children—especially girls—can become better players, confident individuals and future leaders.</p>
+<div class="credentials" id="founderCredentials"></div>
+<p id="founderBio3">Her vision is bigger than football results: it is about helping children gain the skills and opportunities to shape their own futures.</p></div></div></section>
+<section class="cta-band" id="contact"><div class="container cta-inner"><div><div class="kicker">Be part of the change</div><h2 id="ctaHeading">Help us make opportunity reach further.</h2><p id="ctaText">Partner with AT Foundation to support rural sport, girls' participation and community leadership.</p></div><div class="cta-buttons"><button class="btn" id="openContact">Start a conversation ↗</button><a class="btn" style="background:var(--navy);color:white" href="#programmes">Explore programmes</a></div></div></section>
+</main>
+<footer><div class="container"><div class="footer-grid"><div><div class="footer-brand"><img src="assets/at-foundation-logo.jpg" alt="AT Foundation logo"><strong>AT Foundation</strong></div><p id="footerDescription">A non-profit initiative using football, education and leadership to create opportunities for rural communities, with a focus on children, girls and women.</p></div><div><h4>Explore</h4><div class="footer-links"><a href="#about">About ATF</a><a href="#programmes">Our programmes</a><a href="#impact">Our impact</a><a href="#founder">Founder’s profile</a></div></div><div><h4>Our focus</h4><div class="footer-links"><a href="#programmes">Grassroots football</a><a href="#programmes">Women empowerment</a><a href="#programmes">Leadership & life skills</a><a href="#contact">Partnerships</a></div></div></div><div class="footer-bottom"><span>© <span id="year"></span> AT Foundation. Demo website concept.</span><span>Gadhinglaj · Kolhapur · Maharashtra, India</span></div></div></footer>
+<div class="modal-backdrop" id="contactModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><button class="close" id="closeContact" aria-label="Close dialog">×</button><h3 id="modalTitle">Let's create opportunities.</h3><p>Tell us how you would like to connect with AT Foundation.</p><form id="contactForm" name="at-foundation-enquiry" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="at-foundation-enquiry">
+<div hidden><label>Do not fill this out: <input name="bot-field"></label></div><div class="form-row"><label for="name">Your name</label><input id="name" name="name" required placeholder="Enter your name"></div><div class="form-row"><label for="email">Email address</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div><div class="form-row"><label for="interest">I'm interested in</label><select id="interest" name="interest"><option>Programme partnership</option><option>Funding or sponsorship</option><option>Volunteering or coaching</option><option>School or community collaboration</option><option>Other</option></select></div><div class="form-row"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us a little about your idea"></textarea></div><button class="btn" type="submit">Submit enquiry ↗</button><p class="notice" id="formNotice">Your message will be sent securely through this website. The AT Foundation team can review submissions in the Netlify dashboard.</p></form></div></div>
+<script>
+// CMS-managed content is stored in /content/site.json and edited from /admin.
+function setText(id, value) { const el=document.getElementById(id); if(el && value !== undefined && value !== null) el.textContent=value; }
+function setHTML(id, value) { const el=document.getElementById(id); if(el && value !== undefined && value !== null) el.innerHTML=value; }
+function setImage(selector, value) { const el=document.querySelector(selector); if(el && value) el.src=value; }
+async function loadSiteContent(){
+  try {
+    const r=await fetch('/content/site.json', {cache:'no-store'}); if(!r.ok) throw new Error('Content file unavailable');
+    const d=await r.json();
+    ['aboutHeading','aboutParagraph1','aboutParagraph2','valuesHeading','valuesIntro','visionTitle','visionText','missionTitle','missionText','programHeading','programIntro','impactHeading','impactIntro','impactNumber','impactPanelTitle','impactPanelText','impactNote','founderHeading','founderBio1','founderBio2','founderBio3','ctaHeading','ctaText','footerDescription'].forEach(k=>setText(k,d[k]));
+    setText('heroEyebrow',d.hero?.heroEyebrow);setHTML('heroTitle',d.hero?.heroTitle);setText('heroText',d.hero?.heroText);setHTML('heroNote',d.hero?.heroNote);
+    for(let i=1;i<=4;i++){setText(`stat${i}Value`,d.stats?.[i-1]?.value);setText(`stat${i}Label`,d.stats?.[i-1]?.label);}
+    setText('visionTitle',d.vision?.title);setText('visionText',d.vision?.text);setText('missionTitle',d.mission?.title);setText('missionText',d.mission?.text);
+    setText('founderCredentials', '');
+    const credentials=document.getElementById('founderCredentials'); if(credentials){credentials.innerHTML='';(d.founder?.credentials||[]).forEach(t=>{const e=document.createElement('div');e.className='credential';e.textContent=t;credentials.appendChild(e);});}
+    const impacts=document.getElementById('impactList'); if(impacts){impacts.innerHTML='';(d.impact_items||[]).forEach(item=>{const row=document.createElement('div');row.className='impact-item';const mark=document.createElement('div');mark.className='check';mark.textContent='✓';const body=document.createElement('div');const title=document.createElement('strong');title.textContent=item.title||'';const desc=document.createElement('p');desc.textContent=item.description||'';body.append(title,desc);row.append(mark,body);impacts.appendChild(row);});}
+    const grid=document.getElementById('programGrid'); if(grid){grid.innerHTML='';(d.programmes||[]).forEach((item,i)=>{const card=document.createElement('article');card.className='program-card';const img=document.createElement('img');img.src=item.image||'assets/at-foundation-logo.jpg';img.alt=item.image_alt||item.title||'AT Foundation programme';img.loading='lazy';const body=document.createElement('div');body.className='program-body';const num=document.createElement('div');num.className='program-number';num.textContent=item.label||`PROGRAMME ${String(i+1).padStart(2,'0')}`;const title=document.createElement('h3');title.textContent=item.title||'';const desc=document.createElement('p');desc.textContent=item.description||'';const link=document.createElement('a');link.className='learn';link.href=item.link_url||'#contact';link.textContent=(item.link_text||'Learn more')+' ↗';body.append(num,title,desc,link);card.append(img,body);grid.appendChild(card);});}
+    if(d.images?.hero) document.querySelector('.hero').style.setProperty('--cms-hero-image',`url("${d.images.hero}")`);
+    if(d.images?.about) setImage('.intro-image img',d.images.about);
+    if(d.images?.founder) setImage('.founder-photo img',d.images.founder);
+    if(d.contact?.email){const e=document.getElementById('contactEmail');if(e)e.textContent=d.contact.email;}
+    if(d.site_name) document.title=d.site_name+' | Every Child. Every Opportunity.';
+  } catch(err) { console.warn('Using built-in page content:',err.message); }
+}
+loadSiteContent();
+</script>
+<script>
+const menuBtn=document.getElementById('menuBtn'),navlinks=document.getElementById('navlinks');
+menuBtn.addEventListener('click',()=>{const open=navlinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'×':'☰'});
+navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰'}));
+const modal=document.getElementById('contactModal');document.getElementById('openContact').addEventListener('click',()=>modal.classList.add('open'));document.getElementById('closeContact').addEventListener('click',()=>modal.classList.remove('open'));modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open')});document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('open')});
+document.getElementById('year').textContent=new Date().getFullYear();
 
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner" role="listbox">
-		    <div class="item active">
-			<div class="vision-content">
-			<center>
-			  <h2>Vision</h2>
-			  <p>
-				To build an inclusive and empowered rural India where every child and youth—regardless of 
-				gender, background, or circumstance—has equal access to opportunities in sports, education, 
-				leadership, and health, to reach their fullest potential and lead with purpose.
-			  </p>
-			</center>  
-			</div>
-		  </div>
-		  <div class="item">
-		      <center><img src="img/at_foundation_cover.jpg" alt=""></center>
-		    </div>
-		    </div>
-		  </div>
-
-		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
-    <div class="container header-start text-center">
-        <div class="heading-icon">
-          <i class="fa fa-3x fa-heart"></i>
-        </div>
-      <h1 class="main-text">What We Do</h1>
-      <p class="text-center sub-text"><em class="first-line">Our Foundation is committed to three main domains: Sports Development (Football), Leadership Development, and Health & Well-being.  </em><em class="next-line"> We primarily operate in the Kolhapur district, delivering experiential learning-based programs  that teach life and leadership skills through various activities. We also aim to expand our activities for children and youth to other parts of Maharashtra and beyond.</em></p>
-    </div>
-
-    <div class="divider col-sm-12 col-xs-12 col-md-12">
-      <div class="header-text"><span>Blog</span></div>
-    </div>
-
-			<section class="blog">
-				<div class="item col-md-4">
-           <div class="blok-read-sm">
-             <a href="single1.html" class="hover-image">
-                <img src="img/4th-foundation-day.jpg" alt="image">
-                <span class="layer-block"></span>
-             </a>
-            <div class="content-block">
-              <span class="point-caption bg-blue-point"></span>
-              <span class="bottom-line bg-blue-point"></span>
-                <h4>4th Anniversary of AT Foundation</h4>
-                <p>4 Years Strong. Countless lives touched. One mission, to uplift and empower. AT Foundation continues to rise, inspire, and create change. The journey has only begun.</p>
-                <div class="button-main bg-fio-point">read more</div>
-            	</div>
-            </div>
-          </div>
-            </section>
-
-
-			     <div class="divider col-sm-12 col-xs-12 col-md-12">
-              <div class="header-text">Our <span>Testimonials</span></div>
-            </div>
-
-       <section class="testimonial">
-          <div class="col-md-7 testimonial-blog">
-             <div id="wrapper">
-            <!-- DEMO -->
-                <div class="testimonials-slider">
-                  <div class="slide">
-                    <div class="testimonials-carousel-thumbnail"><img width="120" alt="" src="images/team1.jpg"></div>
-                      <div class="testimonials-carousel-context">
-                        <div class="testimonials-name">
-                          Nallappan Mohanraj 
-                        </div>
-                        <div class="testimonials-carousel-content">
-                          <p>Today, AT Foundation celebrates its 4th Anniversary! From the very first project to the many meaningful milestones achieved along the way, your journey has been truly inspiring. May you continue to inspire, serve the community, and uplift lives. Keep striving for the betterment of humanity and making a lasting impact on everyone around you. Thank you for being the heart of your mission. 4 Years Strong - Making a Difference and Still Going Strong.</p>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                 <!-- END DEMO -->
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-md-4 subscribe-form">
-                <div class="subscribe">
-                  <h4>Subscribe to Newsletter</h4>
-                    <div class="email-field">
-                        <form action="http://demo.nrgthemes.com/">
-                               <div class="email-input">
-                                  <input type="email" placeholder="Enter your email..." required>
-                                  <i class="fa fa-check col-green"></i>
-                               </div>
-                          <button type="submit" class="button-main bg-green">Submit</button>
-                        </form>
-                          <span>We never spam :)</span>
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-    <!-- ============FOOTER============= -->
-      <footer id="footer"> 
-        <div class="footer-content container">
-          <div class="footer-adress text-center col-xs-12 col-sm-4 col-md-4">
-                <h4>AT Foundation</h4>
-                <ul class="footer-menus">
-                  <li>Home /</li>
-                  <li>About </li><br />
-                  <li>Initiatives /</li>
-                  <li>Gallery /</li>
-                  <li>Contact</li>
-                </ul>
-            </div>
-            <div class="footer-second col-xs-12 col-sm-4 col-md-4">
-              <div class="social-block text-center">
-                <div class="social-share">
-                  <i class="fa fa-2x fa-facebook"></i>
-                  <i class="fa fa-2x  fa-twitter"></i>
-                  <i class="fa fa-2x  fa-google-plus"></i>
-                  <a target="_blank" href="https://www.instagram.com/at_foundation22/"><i class="fa fa-2x  fa-instagram"></i></a>
-                </div>
-              </div>
-               <p class="text-center footer-text1">+91 8788672231</p>
-                <p class="text-center footer-text">at.foundation22@gmail.com</p></div>
-            <div class="footer-third col-xs-12 col-sm-4 col-md-4">
-              <div class="copyright">
-              </div>
-            </div>
-        </div>
-        <div class="move-top-page">
-      </div>
-    </footer>
-
-	<!-- script references -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-    <script src="js/nav-hover.min.js"></script>
-    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <!-- Place in the <head>, after the three links -->
-    <script>
-     $('.testimonials-slider').bxSlider({
-      slideWidth: 800,
-      minSlides: 1,
-      maxSlides: 1,
-      slideMargin: 32,
-      auto: true,
-      autoControls: true
-      });
-    </script>
-		<script type="text/javascript">
-		</script>
-	</body>
-</html>
+</script>
+</body></html>
